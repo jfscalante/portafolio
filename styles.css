@@ -34,12 +34,11 @@ body {
     font-weight: 500;
     margin-left: 35px;
     margin: 25px;
-    transition: 3s;
+    transition: 0.5s;
 
 }
-.nahvar a:hover,
-.nahvar a.active{
-    color: aqua;
+.nahvar a:hover{
+    color: rgb(219, 12, 12);
 }
 .home{
     position: relative;
@@ -81,15 +80,35 @@ body {
 }
 
 
-.home-img img {
+.home-img img
+ {
     max-width: 500px;
     opacity: 0;
     animation: image  1s ease forwards ;
     border-radius: 50%;
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
+    border: 2px solid #0ef;
+    box-shadow: 0 0 90px #0ef;
+    background-image: url(img/fabian\ scalante.jfif);
+    background-size: cover;
+    
    
 
+}
+.home-img img:hover{
+    max-width: 500px;
+    opacity: 0;
+    animation: image  1s ease forwards ;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    border: 2px solid #0ef;
+    box-shadow: 0 0 90px #0ef;
+    background-image: url(img/fabian\ claros.jpg);
+    background-size: cover;
+    
+    
 }
 .social-media a {
     display:inline-flex;
@@ -98,18 +117,20 @@ body {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #0ef;
+    border: 2px solid rgb(117, 67, 198);
     border-radius: 50%;
     font-size: 20px;
-    color: #0ef;
+    color: rgb(117, 67, 198);
     text-decoration: none;
     margin: 30px 15px 30px 0;
     transition: .5s ease;
+    box-shadow: 0 0 20px rgb(197, 125, 248);
+    
 }
 .social-media a:hover {
-    background: #0ef;
+    background: rgb(204, 235, 94);
     color: #1f242d;
-    box-shadow: 0 0 20px #0ef;
+    box-shadow: 0 0 20px rgb(216, 77, 82);
 }
 .btn{
     display: inline-block;
@@ -122,6 +143,11 @@ body {
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
+}
+.btn:hover{
+    background: rgb(235, 9, 9);
+    box-shadow: 0 0 20px rgb(204, 93, 214);
+    
 }
 @keyframes slideRight{
     0%{
