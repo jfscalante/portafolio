@@ -63,9 +63,13 @@ body {
     color: white;
 }
 .home-content h3 span{
-    color: rgb(211, 19, 19);
+    color: #0ef;
 
 }
+.home-content h3 span:hover{
+    color: red;
+}
+
 .home-content h1{
     font-size: 45px;
     font-weight: 700;
